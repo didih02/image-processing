@@ -1,8 +1,5 @@
-# http://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_basic_image_operations_pixel_access_image_load.php
+#kali ini saya akan memberikan cara bagaimana membaca channel warna RGB pada sebuah gambar
 import cv2
-import numpy as np
-from builtins import print
-
 img = cv2.imread('palm.jpg')
 
 # print(img[:, :, 0]) #red
